@@ -1,16 +1,15 @@
 # Модальные окна
-
-
 ## Usage
 ### HTML
 
  ```html
-button
+1. button
 <div class="container" id="about">
 			<button class="more"> Узнать больше</button>
 		</div>
 ```
  ```html
+2. Modal
 	<div class="overlay fade">
 		<div class="popup">
 			<div class="popup-close">&times;
