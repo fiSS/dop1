@@ -42,7 +42,7 @@
         close = document.querySelector('.popup-close');
 ```
   
-  2. Открытие модального окна. Повесил обработчи событий на кнопку, что при клике на эту кнопку "overlay" должен изменять свои стили overlay.style.display = "block" принимает блочную модель, так же применяется анмация прописанная в css: (при помощи "this" обращаемся к кнопке непосредственно на которую нажали) this.classList.add('more-splash') Добавляем новый class, для блокировки скролла при открытии модального окна document.body.style.overflow = 'hidden' из стилей.
+  2. Открытие модального окна. Повесил обработчи событий на кнопку, что при клике на эту кнопку "overlay" должен изменять свои стили overlay.style.display = "block" принимает блочную модель, так же применяется анмация прописанная в css: (при помощи "this" обращаемся к кнопке непосредственно на которую нажали) this.classList.add('more-splash') Добавляем новый class прописанный в стилях анимация, для блокировки скролла при открытии модального окна document.body.style.overflow = 'hidden' из стилей.
 ```javascript
   more.addEventListener('click', function() {
         overlay.style.display = "block";
